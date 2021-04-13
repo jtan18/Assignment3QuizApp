@@ -1,0 +1,412 @@
+{
+    "quiz": {
+        "Java": {
+            "q1": {
+                "question": "Java is a high-level language.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": "True",
+                "Explanation": "Java is a high-level language because it is more easily understood by humans, Low=-level languages are always static."
+            },
+            "q2": {
+                "question": "What kind of language is java?",
+                "options": [
+                    "Functional Language",
+                    "Procedural Language",
+                    "Object-Oriented Language",
+                    "Structured Language"
+                ],
+                "answer": "Object-Oriented Language",
+                "Explanation": "Java is an Object-Oriented Language."
+
+            },
+            "q3": {
+                "question": "What is the result of 24 % 5? ",
+                "options": [
+                    "4",
+                    "5",
+                    "4.8",
+                    "24"
+                ],
+                "answer": "4",
+                "Explanation": "% finds the remainder of an expression, the remainder of 24/5 being 4"
+            },
+            "q4": {
+                "question": "What is the default value of an integer?",
+                "options": [
+                    "Null",
+                    "0",
+                    "Not Assigned",
+                    "1"
+                ],
+                "answer": "0",
+                "Explanation": "When an integer is called and not defined, the default value is 0"
+            },
+            "q5": {
+                "question": "What is the default value of an object?",
+                "options": [
+                    "Null",
+                    "0",
+                    "Not Assigned",
+                    "1"
+                ],
+                "answer": "Not Assigned",
+                "Explanation": "When an object is not defined, the default value is Not Assigned"
+            },
+            "q6": {
+                "question": "Is it possible to have multiple classes in the same java file?",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "answer": "Yes",
+                "Explanation": "It is possible to have multiple classes in the same java file."
+            },
+            "q7": {
+                "question": "What does multiple inheritance mean?",
+                "options": [
+                    "Multiple classes inheriting from more super classes",
+                    "Multiple classes inheriting from one super class",
+                    "One class inheriting from multiple super classes",
+                    "None of the above"
+                ],
+                "answer": "One class inheriting from multiple super classes",
+                "Explanation": "Multiple inheritance in java allows for one class to inherit from multiple super classes."
+            },
+            "q8": {
+                "question": "What is the process that involves recognizing and focusing on the important characteristics of a situation or object is known as",
+                "options": [
+                    "Encapsulation",
+                    "Polymorphism",
+                    "Abstraction",
+                    "None of the above"
+                ],
+                "answer": "Abstraction",
+                "Explanation": "Abstraction is the process that involves recognizing and focusing on the important characteristics of a situation or object."
+            },
+            "q9": {
+                "question": "Is it possible to change the length of an array after it is made?",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "answer": "No",
+                "Explanation": "Arrays are static length."
+            },
+            "q10": {
+                "question": "Is it possible to change the length of an arraylist after it is made?",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "answer": "Yes",
+                "Explanation": "Arraylists are not static in length."
+            },
+            "q11": {
+                "question": "What is a package a collection of?",
+                "options": [
+                    "Classes",
+                    "Methods",
+                    "Classes and Interfaces",
+                    "None of the above"
+                ],
+                "answer": "Classes and Interfaces",
+                "Explanation": "Packages are collections of classes and interfaces."
+            },
+            "q12": {
+                "question": "Which of the following are keywords?",
+                "options": [
+                    "abstract",
+                    "switch",
+                    "throw",
+                    "void",
+                    "All of the above"
+                ],
+                "answer": "All of the above",
+                "Explanation": "All of the options are keywords, the list of all of them can be found here: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html"
+            },
+            "q13": {
+                "question": "Which of the following are Java IDEs?",
+                "options": [
+                    "Netbeans",
+                    "Eclipse",
+                    "IntelliJ IDEA",
+                    "All of the above"
+                ],
+                "answer": "All of the above",
+                "Explanation": "All of the above are Java IDEs."
+            },
+            "q14": {
+                "question": "What of the following are methods to create a GUI in java?",
+                "options": [
+                    "Swing",
+                    "JavaFX",
+                    "Java IO",
+                    "First and Second Options"
+                ],
+                "answer": "First and Second Options",
+                "Explanation": "Java Swing and JavaFX can be used to create a GUI in java"
+            },
+            "q15": {
+                "question": "What is the output of the following code? \nint count;\nfor (int i=0; i==20; i++)\ncount++;\nSystem.out.println(count);",
+                "options": [
+                    "5",
+                    "20",
+                    "Count",
+                    "None of the Above"
+                ],
+                "answer": "20",
+                "Explanation": "The for loop counts up and adds adds one to count until it hits 20."
+            },
+            "q16": {
+                "question": "What is the output of the following code? \nArrayList<String> fruits = new ArrayList<String>();\nfruits.add(\"Apple\");\nfruits.add(\"Pear\");\nfruits.add(\"Grape\");\nSystem.out.println(fruits.get(1));",
+                "options": [
+                    "Apple",
+                    "Pear",
+                    "Grape",
+                    "None of the above"
+                ],
+                "answer": "Pear",
+                "Explanation": "The 1st element of the array is pear since the 0th element is whatever is added first."
+            },
+            "q17": {
+                "question": "What is the quantity of the following arraylist?\nArrayList list = new ArrayList();",
+                "options": [
+                    "0",
+                    "10",
+                    "100",
+                    "Null"
+                ],
+                "answer": "10",
+                "Explanation": "The default quantity of an ArrayList is 10."
+            },
+            "q18": {
+                "question": "What is the output of the following code? int num[] = {1,2,3,4,5};\nfor(int i=0;i< x; ++i)\nSystem.out.println(values[i]);  ",
+                "options": [
+                    "5",
+                    "1",
+                    "0",
+                    "None of the above"
+                ],
+                "answer": "None of the above",
+                "Explanation": "The variable x is not initalized, so the code will not execute and will result in an error. "
+            },
+            "q19": {
+                "question": "What is the output of the following code?\nSystem.out.println(50/0)",
+                "options": [
+                    "Infinity",
+                    "Zero",
+                    "java.lang.ArithmeticException",
+                    "None of the above"
+                ],
+                "answer": "java.lang.ArithmeticException",
+                "Explanation": "Dividing an integer by 0 results in java.lang.ArithmeticException"
+            },
+            "q20": {
+                "question": "What is the output of the following code?\nSystem.out.print(\"Hello\");\nSystem.out.println(\"World!\"",
+                "options": [
+                    "Hello\nWorld!",
+                    "Hello World!",
+                    "HelloWorld!",
+                    "Hello\n World!"
+                ],
+                "answer": "HelloWorld!",
+                "Explanation": "System.out.print() does not print a new line after printing."
+            }
+        },
+        "C": {
+            "q1": {
+                "question": "Unix/Linux, MacOS and Windows are written in C.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": "True"
+            },
+            "q2": {
+                "question": "What are the advantages of C?",
+                "options": [
+                    "It is fast and portable",
+                    "It is a small language",
+                    "It has direct access to memory and hardware",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            "q3": {
+                "question": "Which are the disadvantages of C?",
+                "options": [
+                    "It is easy to write unreadable programs",
+                    "There are many APIs",
+                    "Option 1 and 2",
+                    "None of the above"
+                ],
+                "answer": "There are many APIs"
+            },
+            "q4": {
+                "question": "How do you print in C?",
+                "options": [
+                    "System.out.println();",
+                    "printf();",
+                    "print()",
+                    "None of the above"
+                ],
+                "answer": "printf();"
+            },
+            "q5": {
+                "question": "What does printf mean?",
+                "options": [
+                    "Print formatted output",
+                    "Print for output",
+                    "Print finish",
+                    "None of the above"
+                ],
+                "answer": "Print format"
+            },
+            "q6": {
+                "question": "Do functions have to be declared before they are used?",
+                "options": [
+                    "Yes",
+                    "No"
+                ],
+                "answer": "Yes"
+            },
+            "q7": {
+                "question": "How do you call elements in an array?",
+                "options": [
+                    "array.get(x)",
+                    "array[x]",
+                    "array.x",
+                    "None of the above"
+                ],
+                "answer": "array.x"
+            },
+            "q8": {
+                "question": "What is a method to accomplish data abstraction in C?",
+                "options": [
+                    "Structures",
+                    "Objects",
+                    "Classes",
+                    "None of the above"
+                ],
+                "answer": "Huston Rocket"
+            },
+            "q9": {
+                "question": "What is the start of the numbering of an array in C?",
+                "options": [
+                    "0",
+                    "1",
+                    "x",
+                    "y"
+                ],
+                "answer": "0"
+            },
+            "q10": {
+                "question": "C is an object-oriented language.",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": "False"
+            },
+            "q11": {
+                "question": "Which of the following is a correct declaration of an array in C?",
+                "options": [
+                    "int array[5]",
+                    "int array(5)",
+                    "int array[]=5",
+                    "All of the above"
+                ],
+                "answer": "int array[5]"
+            },
+            "q12": {
+                "question": "What is the correct format of for loops in C?",
+                "options": [
+                    "for (initializationStatement; testExpression; updateStatement){}",
+                    "for initializationStatement; testExpression; updateStatement =>{}",
+                    "for (initializationStatement; testExpression; updateStatement) =>",
+                    "None of the above"
+                ],
+                "answer": "for (initializationStatement; testExpression; updateStatement){}"
+            },
+            "q13": {
+                "question": "It is possible to create an array of structures",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": "True"
+            },
+            "q14": {
+                "question": "Strings are represented as character arrays",
+                "options": [
+                    "True",
+                    "False"
+                ],
+                "answer": "Huston Rocket"
+            },
+            "q15": {
+                "question": "What is the method to assign string values to already created strings?",
+                "options": [
+                    "strcpy()",
+                    "samplestring = sample",
+                    "samplestring = \"sample\"",
+                    "It is not possible to since strings are character arrays"
+                ],
+                "answer": "Huston Rocket"
+            },
+            "q16": {
+                "question": "What is the function to scan for input?",
+                "options": [
+                    "scanf();",
+                    "scan();",
+                    "scan(System.in)",
+                    "All of the above"
+                ],
+                "answer": "scanf();"
+            },
+            "q17": {
+                "question": "What is the output of the following code, assuming sampleInt is 5?\nprintf(\"The integer is\" + sampleInt)",
+                "options": [
+                    "The integer is 5",
+                    "The integer is5",
+                    "The integer is  5",
+                    "There is an error."
+                ],
+                "answer": "There is an error"
+            },
+            "q18": {
+                "question": "What is a way to define a constant that has a value of 5?",
+                "options": [
+                    "const int sample = 5",
+                    "const int sample = 5;",
+                    "constant int sample = 5;",
+                    "const integer sample = 5;"
+                ],
+                "answer": "const int sample = 5;"
+            },
+            "q19": {
+                "question": "What is the output of the following code?\nfor (i = 1; i < 11; ++i)\n printf(\"%d \", i);",
+                "options": [
+                    "1 2 3 4 5 6 7 8 9 10",
+                    "1 2 3 4 5 6 7 8 9 10 11",
+                    "0 1 2 3 4 5 6 7 8 9 10",
+                    "0 1 2 3 4 5 6 7 8 9 10 11"
+                ],
+                "answer": "1 2 3 4 5 6 7 8 9 10"
+            },
+            "q20": {
+                "question": "What is the proper way of reading a value after the following code?\n int num;\nprintf(\"Enter an integer\");",
+                "options": [
+                    "scanf(num)",
+                    "scanf(\"%c\", &num)",
+                    "scanf(\"%c\", num)",
+                    "scanf(\"%d\", &num)"
+                ],
+                "answer": "scanf(\"%d\", &num)"
+            }
+        }
+    }
+}
