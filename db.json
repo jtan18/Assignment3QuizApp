@@ -170,6 +170,50 @@
                 ],
                 "answer": "Pear",
                 "Explanation": "The 1st element of the array is pear since the 0th element is whatever is added first."
+            },
+            "q17": {
+                "question": "What is the quantity of the following arraylist?\nArrayList list = new ArrayList();",
+                "options": [
+                    "0",
+                    "10",
+                    "100",
+                    "Null"
+                ],
+                "answer": "10",
+                "Explanation": "The default quantity of an ArrayList is 10."
+            },
+            "q18": {
+                "question": "What is the output of the following code? int num[] = {1,2,3,4,5};\nfor(int i=0;i< x; ++i)\nSystem.out.println(values[i]);  ",
+                "options": [
+                    "5",
+                    "1",
+                    "0",
+                    "None of the above"
+                ],
+                "answer": "None of the above",
+                "Explanation": "The variable x is not initalized, so the code will not execute and will result in an error. "
+            },
+            "q19": {
+                "question": "What is the output of the following code?\nSystem.out.println(50/0)",
+                "options": [
+                    "Infinity",
+                    "Zero",
+                    "java.lang.ArithmeticException",
+                    "None of the above"
+                ],
+                "answer": "java.lang.ArithmeticException",
+                "Explanation": "Dividing an integer by 0 results in java.lang.ArithmeticException"
+            },
+            "q20": {
+                "question": "What is the output of the following code?\nSystem.out.print(\"Hello\");\nSystem.out.println(\"World!\"",
+                "options": [
+                    "Hello\nWorld!",
+                    "Hello World!",
+                    "HelloWorld!",
+                    "Hello\n World!"
+                ],
+                "answer": "HelloWorld!",
+                "Explanation": "System.out.print() does not print a new line after printing."
             }
         }
     }
