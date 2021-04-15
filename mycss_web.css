@@ -1,0 +1,179 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(79, 201, 218), white 100%);
+}
+
+.mytitle {
+    margin: 20px auto;
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.f-box-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.f-box-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.inp {
+    margin: 10px auto;
+}
+
+.inp>div {
+    padding: 5px 5px;
+}
+
+.inp>input {
+    padding: 5px 10px;
+    margin: 5px auto;
+    text-align: center;
+    outline: none;
+    border: 2px transparent white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.inp>input:focus {
+    outline: none;
+    border: 2px solid rgb(13, 197, 38);
+}
+
+.inp>button {
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.568);
+}
+
+.inp>button:focus {
+    outline: none;
+    border: 1px solid rgb(13, 197, 38);
+}
+
+.show {
+    padding: 5px 10px;
+    margin: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 10px;
+    font-size: large;
+}
+
+.greet {
+    background: rgba(255, 99, 71, 0.568);
+}
+
+.quest {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    width: fit-content;
+    padding: 5px 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options .opt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.options .opt>input {
+    margin: 0px 10px;
+}
+
+.options .opt>label {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.correct {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: rgb(141, 228, 145);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 255, 0);
+    font-size: 1.5rem;
+    font: bold;
+    letter-spacing: 1px;
+}
+
+.wrong {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: rgb(228, 147, 141);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 8, 0);
+    font-size: 1.5rem;
+    font: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.wrong>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrong>button {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.ready {
+    display: none;
+}
