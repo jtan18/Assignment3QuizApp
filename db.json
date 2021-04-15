@@ -1,220 +1,246 @@
 {
-    "quiz": {
-        "Java": {
-            "q1": {
-                "question": "Java is a high-level language.",
-                "options": [
-                    "True",
-                    "False"
-                ],
-                "answer": "True",
-                "Explanation": "Java is a high-level language because it is more easily understood by humans, Low=-level languages are always static."
-            },
-            "q2": {
-                "question": "What kind of language is java?",
-                "options": [
-                    "Functional Language",
-                    "Procedural Language",
-                    "Object-Oriented Language",
-                    "Structured Language"
-                ],
-                "answer": "Object-Oriented Language",
-                "Explanation": "Java is an Object-Oriented Language."
+    "questions": [{
+            "id": "1",
+            "question": "Java is a high-level language.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "Explanation": "Java is a high-level language because it is more easily understood by humans, Low=-level languages are always static."
+        },
+        {
+            "id": 2,
+            "question": "What kind of language is java?",
+            "options": [
+                "Functional Language",
+                "Procedural Language",
+                "Object-Oriented Language",
+                "Structured Language"
+            ],
+            "answer": "Object-Oriented Language",
+            "Explanation": "Java is an Object-Oriented Language."
 
-            },
-            "q3": {
-                "question": "What is the result of 24 % 5? ",
-                "options": [
-                    "4",
-                    "5",
-                    "4.8",
-                    "24"
-                ],
-                "answer": "4",
-                "Explanation": "% finds the remainder of an expression, the remainder of 24/5 being 4"
-            },
-            "q4": {
-                "question": "What is the default value of an integer?",
-                "options": [
-                    "Null",
-                    "0",
-                    "Not Assigned",
-                    "1"
-                ],
-                "answer": "0",
-                "Explanation": "When an integer is called and not defined, the default value is 0"
-            },
-            "q5": {
-                "question": "What is the default value of an object?",
-                "options": [
-                    "Null",
-                    "0",
-                    "Not Assigned",
-                    "1"
-                ],
-                "answer": "Not Assigned",
-                "Explanation": "When an object is not defined, the default value is Not Assigned"
-            },
-            "q6": {
-                "question": "Is it possible to have multiple classes in the same java file?",
-                "options": [
-                    "Yes",
-                    "No"
-                ],
-                "answer": "Yes",
-                "Explanation": "It is possible to have multiple classes in the same java file."
-            },
-            "q7": {
-                "question": "What does multiple inheritance mean?",
-                "options": [
-                    "Multiple classes inheriting from more super classes",
-                    "Multiple classes inheriting from one super class",
-                    "One class inheriting from multiple super classes",
-                    "None of the above"
-                ],
-                "answer": "One class inheriting from multiple super classes",
-                "Explanation": "Multiple inheritance in java allows for one class to inherit from multiple super classes."
-            },
-            "q8": {
-                "question": "What is the process that involves recognizing and focusing on the important characteristics of a situation or object is known as",
-                "options": [
-                    "Encapsulation",
-                    "Polymorphism",
-                    "Abstraction",
-                    "None of the above"
-                ],
-                "answer": "Abstraction",
-                "Explanation": "Abstraction is the process that involves recognizing and focusing on the important characteristics of a situation or object."
-            },
-            "q9": {
-                "question": "Is it possible to change the length of an array after it is made?",
-                "options": [
-                    "Yes",
-                    "No"
-                ],
-                "answer": "No",
-                "Explanation": "Arrays are static length."
-            },
-            "q10": {
-                "question": "Is it possible to change the length of an arraylist after it is made?",
-                "options": [
-                    "Yes",
-                    "No"
-                ],
-                "answer": "Yes",
-                "Explanation": "Arraylists are not static in length."
-            },
-            "q11": {
-                "question": "What is a package a collection of?",
-                "options": [
-                    "Classes",
-                    "Methods",
-                    "Classes and Interfaces",
-                    "None of the above"
-                ],
-                "answer": "Classes and Interfaces",
-                "Explanation": "Packages are collections of classes and interfaces."
-            },
-            "q12": {
-                "question": "Which of the following are keywords?",
-                "options": [
-                    "abstract",
-                    "switch",
-                    "throw",
-                    "void",
-                    "All of the above"
-                ],
-                "answer": "All of the above",
-                "Explanation": "All of the options are keywords, the list of all of them can be found here: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html"
-            },
-            "q13": {
-                "question": "Which of the following are Java IDEs?",
-                "options": [
-                    "Netbeans",
-                    "Eclipse",
-                    "IntelliJ IDEA",
-                    "All of the above"
-                ],
-                "answer": "All of the above",
-                "Explanation": "All of the above are Java IDEs."
-            },
-            "q14": {
-                "question": "What of the following are methods to create a GUI in java?",
-                "options": [
-                    "Swing",
-                    "JavaFX",
-                    "Java IO",
-                    "First and Second Options"
-                ],
-                "answer": "First and Second Options",
-                "Explanation": "Java Swing and JavaFX can be used to create a GUI in java"
-            },
-            "q15": {
-                "question": "What is the output of the following code? \nint count;\nfor (int i=0; i==20; i++)\ncount++;\nSystem.out.println(count);",
-                "options": [
-                    "5",
-                    "20",
-                    "Count",
-                    "None of the Above"
-                ],
-                "answer": "20",
-                "Explanation": "The for loop counts up and adds adds one to count until it hits 20."
-            },
-            "q16": {
-                "question": "What is the output of the following code? \nArrayList<String> fruits = new ArrayList<String>();\nfruits.add(\"Apple\");\nfruits.add(\"Pear\");\nfruits.add(\"Grape\");\nSystem.out.println(fruits.get(1));",
-                "options": [
-                    "Apple",
-                    "Pear",
-                    "Grape",
-                    "None of the above"
-                ],
-                "answer": "Pear",
-                "Explanation": "The 1st element of the array is pear since the 0th element is whatever is added first."
-            },
-            "q17": {
-                "question": "What is the quantity of the following arraylist?\nArrayList list = new ArrayList();",
-                "options": [
-                    "0",
-                    "10",
-                    "100",
-                    "Null"
-                ],
-                "answer": "10",
-                "Explanation": "The default quantity of an ArrayList is 10."
-            },
-            "q18": {
-                "question": "What is the output of the following code? int num[] = {1,2,3,4,5};\nfor(int i=0;i< x; ++i)\nSystem.out.println(values[i]);  ",
-                "options": [
-                    "5",
-                    "1",
-                    "0",
-                    "None of the above"
-                ],
-                "answer": "None of the above",
-                "Explanation": "The variable x is not initalized, so the code will not execute and will result in an error. "
-            },
-            "q19": {
-                "question": "What is the output of the following code?\nSystem.out.println(50/0)",
-                "options": [
-                    "Infinity",
-                    "Zero",
-                    "java.lang.ArithmeticException",
-                    "None of the above"
-                ],
-                "answer": "java.lang.ArithmeticException",
-                "Explanation": "Dividing an integer by 0 results in java.lang.ArithmeticException"
-            },
-            "q20": {
-                "question": "What is the output of the following code?\nSystem.out.print(\"Hello\");\nSystem.out.println(\"World!\"",
-                "options": [
-                    "Hello\nWorld!",
-                    "Hello World!",
-                    "HelloWorld!",
-                    "Hello\n World!"
-                ],
-                "answer": "HelloWorld!",
-                "Explanation": "System.out.print() does not print a new line after printing."
-            }
+        },
+        {
+            "id": 3,
+            "question": "What is the result of 24 % 5? ",
+            "options": [
+                "4",
+                "5",
+                "4.8",
+                "24"
+            ],
+            "answer": "4",
+            "Explanation": "% finds the remainder of an expression, the remainder of 24/5 being 4"
+
+        },
+
+        {
+            "id": 4,
+            "question": "What is the default value of an integer?",
+            "options": [
+                "Null",
+                "0",
+                "Not Assigned",
+                "1"
+            ],
+            "answer": "0",
+            "Explanation": "When an integer is called and not defined, the default value is 0"
+        },
+        {
+            "id": 5,
+            "question": "What is the default value of an object?",
+            "options": [
+                "Null",
+                "0",
+                "Not Assigned",
+                "1"
+            ],
+            "answer": "Not Assigned",
+            "Explanation": "When an object is not defined, the default value is Not Assigned"
+        },
+        {
+            "id": 6,
+            "question": "Is it possible to have multiple classes in the same java file?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "answer": "Yes",
+            "Explanation": "It is possible to have multiple classes in the same java file."
+        },
+        {
+            "id": 7,
+            "question": "What does multiple inheritance mean?",
+            "options": [
+                "Multiple classes inheriting from more super classes",
+                "Multiple classes inheriting from one super class",
+                "One class inheriting from multiple super classes",
+                "None of the above"
+            ],
+            "answer": "One class inheriting from multiple super classes",
+            "Explanation": "Multiple inheritance in java allows for one class to inherit from multiple super classes."
+        },
+        {
+            "id": 8,
+            "question": "What is the process that involves recognizing and focusing on the important characteristics of a situation or object is known as",
+            "options": [
+                "Encapsulation",
+                "Polymorphism",
+                "Abstraction",
+                "None of the above"
+            ],
+            "answer": "Abstraction",
+            "Explanation": "Abstraction is the process that involves recognizing and focusing on the important characteristics of a situation or object."
+        },
+        {
+            "id": 9,
+            "question": "Is it possible to change the length of an array after it is made?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "answer": "No",
+            "Explanation": "Arrays are static length."
+        },
+        {
+            "id": 10,
+            "question": "Is it possible to change the length of an arraylist after it is made?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "answer": "Yes",
+            "Explanation": "Arraylists are not static in length."
+        },
+
+        {
+            "id": 11,
+            "question": "What is a package a collection of?",
+            "options": [
+                "Classes",
+                "Methods",
+                "Classes and Interfaces",
+                "None of the above"
+            ],
+            "answer": "Classes and Interfaces",
+            "Explanation": "Packages are collections of classes and interfaces."
+        },
+        {
+            "id": 12,
+            "question": "Which of the following are keywords?",
+            "options": [
+                "abstract",
+                "switch",
+                "throw",
+                "void",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "Explanation": "All of the options are keywords, the list of all of them can be found here: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html"
+        },
+        {
+            "id": 13,
+            "question": "Which of the following are Java IDEs?",
+            "options": [
+                "Netbeans",
+                "Eclipse",
+                "IntelliJ IDEA",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "Explanation": "All of the above are Java IDEs."
+        },
+        {
+            "id": 14,
+            "question": "What of the following are methods to create a GUI in java?",
+            "options": [
+                "Swing",
+                "JavaFX",
+                "Java IO",
+                "First and Second Options"
+            ],
+            "answer": "First and Second Options",
+            "Explanation": "Java Swing and JavaFX can be used to create a GUI in java"
+        },
+        {
+            "id": 15,
+            "question": "What is the output of the following code? \nint count;\nfor (int i=0; i==20; i++)\ncount++;\nSystem.out.println(count);",
+            "options": [
+                "5",
+                "20",
+                "Count",
+                "None of the Above"
+            ],
+            "answer": "20",
+            "Explanation": "The for loop counts up and adds adds one to count until it hits 20."
+        },
+        {
+            "id": 16,
+            "question": "What is the output of the following code? \nArrayList<String> fruits = new ArrayList<String>();\nfruits.add(\"Apple\");\nfruits.add(\"Pear\");\nfruits.add(\"Grape\");\nSystem.out.println(fruits.get(1));",
+            "options": [
+                "Apple",
+                "Pear",
+                "Grape",
+                "None of the above"
+            ],
+            "answer": "Pear",
+            "Explanation": "The 1st element of the array is pear since the 0th element is whatever is added first."
+        },
+        {
+            "id": 17,
+            "question": "What is the quantity of the following arraylist?\nArrayList list = new ArrayList();",
+            "options": [
+                "0",
+                "10",
+                "100",
+                "Null"
+            ],
+            "answer": "10",
+            "Explanation": "The default quantity of an ArrayList is 10."
+        },
+        {
+            "id": 18,
+            "question": "What is the output of the following code? int num[] = {1,2,3,4,5};\nfor(int i=0;i< x; ++i)\nSystem.out.println(values[i]);  ",
+            "options": [
+                "5",
+                "1",
+                "0",
+                "None of the above"
+            ],
+            "answer": "None of the above",
+            "Explanation": "The variable x is not initalized, so the code will not execute and will result in an error. "
+        },
+        {
+            "id": 19,
+            "question": "What is the output of the following code?\nSystem.out.println(50/0)",
+            "options": [
+                "Infinity",
+                "Zero",
+                "java.lang.ArithmeticException",
+                "None of the above"
+            ],
+            "answer": "java.lang.ArithmeticException",
+            "Explanation": "Dividing an integer by 0 results in java.lang.ArithmeticException"
+        },
+        {
+            "id": 20,
+            "question": "What is the output of the following code?\nSystem.out.print(\"Hello\");\nSystem.out.println(\"World!\"",
+            "options": [
+                "Hello\nWorld!",
+                "Hello World!",
+                "HelloWorld!",
+                "Hello\n World!"
+            ],
+            "answer": "HelloWorld!",
+            "Explanation": "System.out.print() does not print a new line after printing."
         }
+
+    ],
+
+    "quiz": {
+        "total_questions": 20,
+        "time": 30
     }
 }
