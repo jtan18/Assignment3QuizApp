@@ -73,7 +73,6 @@ document.querySelector("#submit").addEventListener("click", (e) => {
             }
         }
     }
-    // wrong 
     document.getElementById("remark").innerHTML = wrong();
 });
 
@@ -123,7 +122,7 @@ const update_question = async() => {
 };
 
 const init = async() => {
-    fetch("https://my-json-server.typicode.com/deviduttanayak-github/web/quiz")
+    fetch("https://my-json-server.typicode.com/jtan18/Assignment3QuizApp/quiz")
         .then(res => {
             res.json().then(data => {
                 tol_quest = data.total_questions;
