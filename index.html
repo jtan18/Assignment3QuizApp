@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Quiz</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="mycss_web.css">
@@ -16,11 +16,12 @@
 
     <div id="login">
         <div class="f-box-v">
-            <div class="f-box-h title">User Info</div>
+            <div class="f-box-h title">Enter your name:</div>
             <div class="f-box-v inp">
 
                 <input id="uname" type="text" placeholder="username">
-                <button id="get_uname" type="submit">Start Quiz</button>
+                <button type="submit" onclick="select(1)">Start Quiz 1</button>
+                <button type="submit" onclick="select(2)">Start Quiz 2</button>
                 <i>Are you ready for the quiz?</i>
             </div>
         </div>
