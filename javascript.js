@@ -81,7 +81,7 @@ const update_question = async() => {
         document.getElementById("submit").style.display = "none";
         return;
     }
-    var api = "https://my-json-server.typicode.com/jtan18/Project-3-Front-end-SPA-application/questions" + qno;
+    var api = "https://my-json-server.typicode.com/jtan18/Assignment3QuizApp/questions/" + qno;
     fetch(api)
         .then(res => {
             res.json().then(data => {
@@ -104,7 +104,7 @@ const update_question = async() => {
 };
 
 const init = async() => {
-    fetch("https://my-json-server.typicode.com/jtan18/Project-3-Front-end-SPA-application/quiz")
+    fetch("https://my-json-server.typicode.com/jtan18/Assignment3QuizApp/quiz/")
         .then(res => {
             res.json().then(data => {
                 tol_quest = data.total_questions;
