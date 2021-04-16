@@ -12,7 +12,7 @@ var done = false;
 var dash_template = Handlebars.compile("<div id=board class=f-box-h><div class=show>Welcome {{username}}</div><div class=show>Score : {{score}}</div> <div class=show>Answered : {{qno}}/{{tol_quest}} </div><div class=show>Time : {{m}} min {{s}} s</div></div>");
 var question_template = Handlebars.compile("<div class=quest> Q{{q}}. {{quest}} </div>");
 var msg_correct_temp = Handlebars.compile("<div id=correct class=correct> {{wow}}!! It's Correct </div>");
-var msg_wrong_temp = Handlebars.compile("<div id=wrong class=wrong>Wrong!! <div class=explain>{{explain}}</div><button type=button class=btn-primary onclick=update_question()>Next Question</button></div>");
+var msg_wrong_temp = Handlebars.compile("<div id=wrong class=wrong>Wrong. <div class=explain>{{explain}}</div><button type=button class=btn-primary onclick=update_question()>Next Question</button></div>");
 var result_temp = Handlebars.compile("<div class=f-box-v><h3>Your Score is : {{score}}</h3><h2>{{txt}}</h2></div>");
 
 const wrong = () => {
@@ -25,7 +25,7 @@ const make_option = (id, opt) => {
 }
 
 const correct = () => {
-    let ww = ["Great Work", "Brilliant", "Awesome"];
+    let ww = ["Good work", "Nice!", "Awesome"];
     let i = (Math.random() * 100) % ww.length;
     return msg_correct_temp({ wow: ww[Math.floor(i)] });
 }
